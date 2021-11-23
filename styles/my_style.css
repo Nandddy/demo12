@@ -18,7 +18,7 @@
 }
 
 .bg-gray {
-    background-color:gray;
+    background-color:#585C5F;
     font-family: 'Bebas Neue', Arial, 'Courier New', Courier, monospace;
     font-size:larger;
 }
@@ -33,6 +33,11 @@ footer{
     bottom:0;
     text-align:center;
 }
+
+.bodybg {
+    background-color:#AFD0D6;
+}
+
 @media (max-width: 1200px) {
     .bg-img {
         background-size: cover;
