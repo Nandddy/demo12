@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.bg-img {
+    background-image:url('../images/bike_bg.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height:400px;
+}
+
+#header {
+    font-size:60pt;
+}
+
+.navbar-brand {
+    font-size:20pt;
+    margin-right:2%;
+}
+
+.bg-gray {
+    background-color:gray;
+    font-family: 'Bebas Neue', Arial, 'Courier New', Courier, monospace;
+    font-size:larger;
+}
+
+.btn-primary {
+    background-color:#A5D8FF;
+    border-color:black;
+    color:black;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    text-align:center;
+}
+@media (max-width: 1200px) {
+    .bg-img {
+        background-size: cover;
+        height:100%;
+    }
+}

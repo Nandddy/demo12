@@ -7,7 +7,6 @@
     <meta name="comp1800 template" content="my bcit Hiking App project">
 
     <!-- Optional styles and scripts of your own -->
-    <link type="text/css" href="styles/my_style.css">
     <link type="text/css" rel="stylesheet" href="styles/bootstrap.css">
 
     <!-- Bootstrap FirebaseUI CSS -->
@@ -25,6 +24,8 @@
     <!-- Link to the api keys for your firebase project -->
     <script src="/scripts/firebaseAPI_TEAM99.js"></script>
 
+    <link type="text/css" rel="stylesheet" href="styles/my_style.css">
+
 </head>
 
 <body>
@@ -33,9 +34,9 @@
     <!-- The following is HTML for layout -->
     <!-------------------------------------->
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Andy's Hiking App</a>
+            <a class="navbar-brand" href="#">Andy's Biking Tap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -44,7 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active"  href="#">Home</a>
+                        <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Login</a>
@@ -58,21 +59,25 @@
                         <a class="nav-link active" href="#">Saved</a>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
     </nav>
 
-
-    <div class="container">
-        <h1>Index.html file</h1>
-        <h2>Let's Log in </h2>
-        <a href="login.html" class="btn btn-info" role="button">Log in</a>
+    <div class="p-5 mb-4 bg-light rounded-3 bg-gray">
+        <div class="container-fluid py-5 bg-img">
+            <h1 id="header" class="display-5 fw-bold">Feel the wind</h1>
+            <p class="col-md-8 fs-4">With our state-of-the-art bikes, <br>you will never want to travel by foot again
+            </p>
+            <br>
+            <button class="btn btn-primary btn-lg" type="button">See pricing</button>
+            <a href="login.html" class="btn btn-primary btn-lg" style="margin-left:25px;" role="button">Log in</a>
+        </div>
     </div>
-    <!--------------------------------------------------------------------->
-    <!-- JS files: Your own JavaScript functions included here    -->
-    <!--------------------------------------------------------------------->
-    
+
+    <footer> 
+        <small>image source: giant-bicycles.com; this page was made purely for educational purposes please dont sue me</small>
+    </footer>
 </body>
 
 </html>
